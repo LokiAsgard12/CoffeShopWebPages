@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+}
+button {
+  background-color: #a8201a;
+  border-radius: 55px;
+  color: #f9fbfe;
+  font-size: 1.5rem;
+  height: 70px;
+  text-align: center;
+  width: 335px;
+}
+h2 {
+  color: #0f8b8d;
+  width: 18.75rem;
+}
+h3 {
+  color: #ec9a29;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+hr {
+  background-color: #ec9a29;
+  width: 278px;
+  height: 5px;
+}
+
+/* Styling header */
+header {
+  background-image: url(/image/Coffe\ Header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.875rem;
+  color: white;
+  height: 43.75rem;
+}
+header::before {
+  border-radius: 1.875rem;
+  content: "";
+  position: absolute;
+  height: 43.75rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(20, 54, 66, 0.7);
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+nav {
+  float: right;
+  margin: 3.375rem 5.5rem 0 0;
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 1.875rem;
+}
+nav li {
+  margin-right: 3.125rem;
+}
+.logo-nav {
+  width: 100%;
+  height: fit-content;
+}
+.logo-nav img {
+  margin: 2.438rem 0 0 8.625rem;
+  position: relative;
+  width: 335px;
+}
+.title {
+  font-size: 38px;
+  font-weight: 800;
+  line-height: double;
+  margin: 7.8rem auto 18.313rem auto;
+  position: relative;
+  text-align: center;
+}
+.title h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+/* Styling Main */
+/* Arikel Atas Tentang Kami */
+.about-us {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 6.25rem;
+  row-gap: 6.25rem;
+  padding: 10px;
+}
+.who-are-we {
+  margin-bottom: 6.25rem;
+  padding-left: 8.625rem;
+  padding-right: 16rem;
+  text-align: justify;
+}
+.who-are-we h2 {
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+  width: 25rem;
+}
+.who-are-we hr {
+  width: 17.375rem;
+}
+.who-are-we p {
+  font-size: 1.5rem;
+  height: 7.25rem;
+  width: 24rem;
+}
+.img-who {
+  /* padding: 0 10.9rem 0 10.9rem; */
+  text-align: center;
+}
+.img-who img {
+  border-radius: 20px;
+  width: 335px;
+  height: 460px;
+}
+.product {
+  margin-bottom: 6.25rem;
+  padding-left: 8.625rem;
+  padding-right: 16rem;
+}
+.product h2,
+hr {
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+  width: 25rem;
+}
+.product p {
+  font-size: 1.5rem;
+  height: 7.25rem;
+  width: 27rem;
+}
+.img-product {
+  text-align: center;
+}
+.img-product img {
+  border-radius: 20px;
+  width: 335px;
+  height: 335px;
+}
+.img-alamat {
+  text-align: center;
+}
+.img-alamat img {
+  border-radius: 20px;
+  width: 453px;
+  height: 453px;
+}
+.alamat {
+  margin-bottom: 6.25rem;
+  padding-left: 8.625rem;
+  padding-right: 16rem;
+}
+.alamat h2,
+hr {
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+  width: 25rem;
+}
+.alamat p {
+  font-size: 1.5rem;
+  height: 7.25rem;
+  width: 25rem;
+}
+
+/* Artikerl Kedua Instagram dan kontak kami */
+.contact-us {
+  text-align: center;
+  margin: 6.25rem auto;
+}
+.contact-us h2 {
+  font-size: 3rem;
+  font-weight: 3.625rem;
+  line-height: 3.6rem;
+  margin: auto;
+  width: 100%;
+}
+.instagram {
+  color: #ec9a29;
+}
+.feeds-container {
+  column-gap: 6.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 3.125rem auto 6.25rem 13.625rem;
+  row-gap: 3.125rem;
+  width: fit-content;
+}
+.feed img {
+  height: 14.8125rem;
+  width: 14.8125rem;
+}
+/* ask-us */
+.ask-us {
+  text-align: center;
+}
+.ask-us p {
+  font-size: 1.5rem;
+  margin: 1.25rem auto;
+}
+/* Styling Footer */
+footer {
+  background: #182225;
+  border-radius: 30px;
+  height: 460px;
+  padding: 7rem 13.125rem 19.5rem 6.625rem;
+  width: 100%;
+}
+.mail-icon,
+.phone-icon {
+  background: #f9fbfe;
+  height: 2rem;
+  position: relative;
+  width: 2.5rem;
+  margin-right: 1.7rem;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-right: 6.25rem;
+}
+.logo {
+  margin-bottom: 1.9rem;
+}
+.footer-right {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: auto;
+}
+.footer-right h3,
+li {
+  margin-bottom: 1.5rem;
+}
+.footer-right li {
+  color: #f9fbfe;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+}

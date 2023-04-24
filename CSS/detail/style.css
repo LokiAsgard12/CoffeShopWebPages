@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: #a8201a;
+  border-radius: 55px;
+  color: #f9fbfe;
+  font-size: 1.5rem;
+  height: 70px;
+  text-align: center;
+  width: 335px;
+}
+h1 {
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+}
+h2 {
+  color: #0f8b8d;
+  width: 18.75rem;
+}
+h3 {
+  color: #ec9a29;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+hr {
+  background-color: #ec9a29;
+  width: 278px;
+  height: 5px;
+}
+/* Styling header */
+header {
+  background: #0f8b8d;
+  border-radius: 1.875rem 1.875rem 0rem 0rem;
+  color: white;
+  height: 9.0625rem;
+  width: 100%;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+nav {
+  float: right;
+  margin: 3.375rem 6.5rem 0 6rem;
+  position: relative;
+  top: 0;
+  width: 50%;
+  z-index: 10;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 1.875rem;
+  margin-left: 0.25rem;
+}
+nav li {
+  text-align: center;
+  margin-right: 3.125rem;
+  width: 25%;
+}
+.logo-nav {
+  width: 100%;
+  height: fit-content;
+}
+.logo-nav img {
+  margin: 2.438rem 0 0 8.625rem;
+  position: relative;
+  height: 67px;
+  width: 335px;
+}
+/* Styling Main */
+main {
+  margin-top: 6.25rem;
+  text-align: center;
+}
+.header h1 {
+  margin-bottom: 2.5rem;
+}
+.feeds-container {
+  column-gap: 6.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 3.125rem auto 6.25rem auto;
+  row-gap: 3.125rem;
+  width: fit-content;
+}
+.feed {
+  border-radius: 20px;
+  color: #f9fbfe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  height: 216px;
+}
+.feed img {
+  height: 31.3rem;
+  width: 30.8rem;
+}
+.feed-price h1 {
+  color: #0f8b8d;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 72px;
+  text-align: left;
+}
+.feed-price h2 {
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57.6px;
+  text-align: left;
+  margin-bottom: 1.875rem;
+}
+.feed-price p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 3.75rem;
+}
+.description {
+  margin-left: 12.0625rem;
+  margin-bottom: 4.0625rem;
+  text-align: left;
+}
+.description h2 {
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57.6px;
+  margin-bottom: 1.25rem;
+}
+.description hr {
+  margin-bottom: 1.25rem;
+}
+.description p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+.description-btn {
+  margin-bottom: 7.6rem;
+}
+/* Styling Footer */
+footer {
+  display: flex;
+  background: #182225;
+  border-radius: 30px;
+  height: 460px;
+  padding: 7rem 13.125rem 19.5rem 6.625rem;
+  width: 100%;
+}
+.mail-icon,
+.phone-icon {
+  background: #f9fbfe;
+  height: 2rem;
+  position: relative;
+  width: 2.5rem;
+  margin-right: 1.7rem;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-right: 6.25rem;
+}
+.logo {
+  margin-bottom: 1.9rem;
+}
+.footer-right {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 1.4fr;
+  width: auto;
+}
+.footer-right h3,
+li {
+  margin-bottom: 1.5rem;
+}
+.footer-right li {
+  color: #f9fbfe;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  display: flex;
+  margin-right: 6.25rem;
+  width: 100%;
+}
